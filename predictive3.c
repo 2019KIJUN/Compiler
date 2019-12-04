@@ -1,6 +1,6 @@
 /*
 	Predictive parser
-	2017.11.03 by Kang, Seung-Shik at Kookmin University
+	
 */
 #include <stdio.h>
 #include <string.h>
@@ -38,7 +38,7 @@ void input_data(char *str)
 	3. A -> b
 	4. A -> epsilon
 
-	¹®ÀÚ¸¦ ÀÎµ¦½º·Î Ç¥½ÃÇÏ±â À§ÇÏ¿© ¾Æ·¡¿Í °°ÀÌ Â÷·Ê´ë·Î A, B..nonterminal ÀÌ¸§ º¯°æ.
+	ë¬¸ìžë¥¼ ì¸ë±ìŠ¤ë¡œ í‘œì‹œí•˜ê¸° ìœ„í•˜ì—¬ ì•„ëž˜ì™€ ê°™ì´ ì°¨ë¡€ëŒ€ë¡œ A, B..nonterminal ì´ë¦„ ë³€ê²½.
 
 	0. A -> aAc
 	1. A -> bB
@@ -60,7 +60,7 @@ void load_create_rule()
 	   ----------------------------------------
 	     A	 |	0	1	-1	-1
 	     B	 |	2	3	4	4
-	»ý¼º ±ÔÄ¢ÀÌ ¾ø´Â ºóÄ­Àº -1 ·Î Ç¥½Ã.
+	ìƒì„± ê·œì¹™ì´ ì—†ëŠ” ë¹ˆì¹¸ì€ -1 ë¡œ í‘œì‹œ.
 
 	0. A -> aAc
 	1. A -> bB
